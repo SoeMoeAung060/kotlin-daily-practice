@@ -45,6 +45,7 @@ package november
  *
  * [C][D][7][8][9][A][B]
  * */
+
 class CircularBuffer<T>(private val capacity : Int) {
 
     private val buffer : Array<Any?> = Array(capacity) { null }

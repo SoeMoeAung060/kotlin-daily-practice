@@ -32,11 +32,30 @@ fun armStrongNumber(numbers : Int) : Boolean {
 
 fun main() {
 
-    for (index in 1..10000){
-        val armStrongNumber = armStrongNumber(index)
-        if (armStrongNumber) {
-            println("$index is an Armstrong number.")
-        }
+//    for (index in 153..100000){
+//        val armStrongNumber = armStrongNumber(index)
+//        if (armStrongNumber) {
+//            println("$index is an Armstrong number.")
+//        }
+//    }
+
+    println(isArmstrongNumber(153))
+
+}
+
+
+
+fun isArmstrongNumber(numbers: Int) : Boolean{
+    var temp = numbers
+    var numberDigits = numbers.toString().length
+    var sum = 0
+
+    while (temp > 0){
+        val digits = temp % 10
+        sum += digits.toDouble().pow(numberDigits).toInt()
+        temp /= 10
     }
+
+    return sum == numbers
 
 }
