@@ -31,7 +31,12 @@ fun armStrongNumber(numbers : Int) : Boolean {
 }
 
 fun main() {
-    val input = 153
-    val armStrongNumber = armStrongNumber(input)
-    println("Is $input an armStrong number? $armStrongNumber")
+
+    for (index in 1..10000){
+        val armStrongNumber = armStrongNumber(index)
+        if (armStrongNumber) {
+            println("$index is an Armstrong number.")
+        }
+    }
+
 }
