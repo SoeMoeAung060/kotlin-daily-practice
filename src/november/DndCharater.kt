@@ -13,7 +13,7 @@ import kotlin.random.nextInt
  * You do this by rolling four 6-sided dice and recording the sum of the largest three dice.
  * You do this six times, once for each ability.
  *
- * Your character's initial hitpoints are 10 + your character's constitution modifier.
+ * Your character's initial hit points are 10 + your character's constitution modifier.
  * You find your character's constitution modifier by subtracting 10
  * from your character's constitution, divide by 2 and round down.
  *
@@ -48,12 +48,13 @@ class DndCharacters {
 fun main() {
 
     val dndCharacters = DndCharacters()
+
     println("Strength : ${dndCharacters.strength}")
     println("Dexterity : ${dndCharacters.dexterity}")
     println("Constitution : ${dndCharacters.constitution}")
     println("Intelligence : ${dndCharacters.intelligence}")
     println("Wisdom : ${dndCharacters.wisdom}")
     println("Charisma : ${dndCharacters.charisma}")
-    println("Hitpoints : ${dndCharacters.hitpoints}")
+    println("Hit points : ${dndCharacters.hitpoints}")
 }
 
