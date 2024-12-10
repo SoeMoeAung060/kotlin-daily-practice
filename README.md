@@ -16,3 +16,4 @@ A series of coding challenges and algorithms practiced daily to improve problem-
   A program to generate or manage characters for Dungeons & Dragons (D&D), including random stat generation, class selection, and equipment. The goal is to help streamline the character creation process.
 - [Square Code](https://exercism.org/tracks/kotlin/exercises/crypto-square)
   An algorithm that arranges a given string or set of numbers into a square matrix or grid format. The resulting grid may be used for various applications like cryptography or image processing.
+- [Dart](https://exercism.org/tracks/kotlin/exercises/darts)
