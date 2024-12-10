@@ -10,3 +10,4 @@ A series of coding challenges and algorithms practiced daily to improve problem-
 - [D&D Character](https://exercism.org/tracks/kotlin/exercises/dnd-character)
 - [Square Code](https://exercism.org/tracks/kotlin/exercises/crypto-square)
 - [Dart](https://exercism.org/tracks/kotlin/exercises/darts)
+- [Difference of Squares](https://projecteuler.net/problem=6)
