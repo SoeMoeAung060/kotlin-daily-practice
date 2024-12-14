@@ -12,3 +12,4 @@ A series of coding challenges and algorithms practiced daily to improve problem-
 - [Dart](https://exercism.org/tracks/kotlin/exercises/darts)
 - [Difference of Squares](https://projecteuler.net/problem=6)
 - [Multiply](https://projecteuler.net/problem=1)
+- [Fibonacci Number](https://projecteuler.net/problem=2)
